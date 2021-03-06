@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<simpleXmlObject>
+    <field1>Value 1</field1>
+    <field2>1</field2>
+    <field3>5</field3>
+    <field4>2.5</field4>
+</simpleXmlObject>

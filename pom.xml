@@ -7,7 +7,7 @@
 	<groupId>io.vepo</groupId>
 	<artifactId>serialization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ANTLR4 :: Tutorial</name>
+	<name>Serialization</name>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -19,7 +19,40 @@
 	</properties>
 
 	<dependencies>
+		<!-- JAX-B API -->
+		<dependency>
+			<groupId>jakarta.xml.bind</groupId>
+			<artifactId>jakarta.xml.bind-api</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>3.0.0</version>
+			<scope>runtime</scope>
+		</dependency>
 
+		<!-- JSON-B API -->
+		<dependency>
+			<groupId>jakarta.json.bind</groupId>
+			<artifactId>jakarta.json.bind-api</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+		<!-- JSON-P -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>jakarta.json</artifactId>
+			<version>1.1.5</version>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Yasson (JSON-B implementation) -->
+		<dependency>
+			<groupId>org.eclipse</groupId>
+			<artifactId>yasson</artifactId>
+			<version>1.0.3</version>
+			<scope>runtime</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
